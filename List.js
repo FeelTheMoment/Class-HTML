@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
 <li><a href="#!html" onclick="fetchPage('html')">html</a></li>
 <li><a href="#!css" onclick="fetchPage('css')">css</a></li>
 <li><a href="#!javascript" onclick="fetchPage('javascript')">javascript</a></li>
 <li><a href="#!ajax" onclick="fetchPage('ajax')">ajax</a></li>
-</body>
-</html>
+
