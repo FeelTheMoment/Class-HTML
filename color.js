@@ -39,7 +39,7 @@ var Links = {
           }
         }
 
-      fetch('list').then(function(response){
+      fetch('List2.txt').then(function(response){
     response.text().then(function(text){
       var items = text.split(',');
       var i = 0;
