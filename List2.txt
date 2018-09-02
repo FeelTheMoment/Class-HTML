@@ -1,1 +1,1 @@
-html,css,javascript,ajax
+html,css,javascript,ajax,wow
