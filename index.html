@@ -15,8 +15,17 @@
   <title>WEB1 - WEB</title>
   <meta charset="utf-8">
   <script src="color.js"></script>
-  <script>
-      fetch('List2.txt').then(function(response){
+  
+ </head>
+ <body>
+   <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+  <ol id="nav">
+   </ol>
+ <script>
+      fetch('List').then(function(response){
     response.text().then(function(text){
       var items = text.split(',');
       var i = 0;
@@ -32,14 +41,6 @@
     })
   });
   </script>
- </head>
- <body>
-   <h1><a href="index.html">WEB</a></h1>
-  <input id="night_day" type="button" value="night" onclick="
-    nightDayHandler(this);
-  ">
-  <ol id="nav">
-   </ol>
    <h2>WEB</h2>
    <p>
      The World Wide Web (WWW), also called the Web, is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland.[2][3] The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
